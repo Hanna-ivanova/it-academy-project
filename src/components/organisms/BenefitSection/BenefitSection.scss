@@ -1,0 +1,44 @@
+.benefit-section {
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 40px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    align-items: center;
+    padding: 5vh;    
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;   
+}
+
+.benefit-card {
+    display: flex;    
+    margin-bottom: 5vh;
+    width: 100%;
+    margin-top: 40px; 
+}
+
+.benefit-svg > svg {
+    fill: rgb(228,181,164);
+    height: 80px;
+    width: 80px;
+    margin-right: 50px;
+}
+
+.benefit-title {
+    font-weight: 650;
+    margin-bottom: 8px;
+}
+
+.benefit-description {
+    font-weight: 100;
+    color: grey;
+}
+
+.benefit-text-wrapper {
+    width: 75%;
+    font-size: x-large;
+} 
+
+.benefit-svg {
+    width: 20%;
+}

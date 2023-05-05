@@ -1,0 +1,65 @@
+.feedback-slide-wrp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;    
+}
+
+.slide {
+    display: none;
+}
+
+.visible {
+    display: block !important;
+}
+
+.text-feedback {
+    letter-spacing: 2px;
+    -webkit-transition: all 2s ease 0s;
+    -o-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;     
+}
+
+.author-feedback {
+    font-size: x-small;
+}
+
+#arrow-btn-right, #arrow-btn-left {
+    background-color: transparent;
+    padding: 0 10px;
+    margin: 0;
+}
+
+#arrow-btn-right:hover {
+    fill: rgb(228,181,164);
+}
+
+#arrow-btn-left:hover {
+    fill: rgb(228,181,164);
+}
+
+#arrow-btn-right > svg {
+    width: 25px;
+    height: 25px;
+}
+
+#arrow-btn-left > svg {
+    width: 25px;
+    height: 25px;
+}
+
+.feedback-section {
+    background-color: rgb(250,250,250);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center; 
+    padding: 40px 50px;
+}

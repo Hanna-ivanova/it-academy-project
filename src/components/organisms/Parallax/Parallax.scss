@@ -1,0 +1,36 @@
+.parallax {
+    background-image:  url(gallery1.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 60vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;      
+}
+
+.parallax-wrp {
+    background-color: rgba(255, 255, 255, 0.722);
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 10%;
+}
+
+.parallax-wrp > button {
+    margin: 20px 0 0;
+}
+
+.parallax-text, h5 {
+    color: rgb(85, 85, 85);
+    text-align: center;
+}

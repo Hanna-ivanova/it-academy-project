@@ -1,0 +1,112 @@
+button {
+    background-color: rgb(228,181,164);
+    border: transparent;
+    margin-left: 10%;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 10px 15px;
+    width: 30vw;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.shop {
+    background: white;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+    -webkit-box-orient: vertical;  
+    -webkit-box-direction: normal;  
+        -ms-flex-direction: column;  
+            flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;      
+}
+
+.shop-img-text:hover {
+    background-size: 100% 2px;    
+}
+
+.shop-bouqet-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.shop-bouqet-price {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    color: rgb(85, 85, 85);
+}
+
+.shop-bouqet-img {
+    width: 100%;
+}
+
+.shop > h2, h5 {
+    margin: 0;
+    padding: 15px 0 10px;
+}
+
+.shop-btn {
+    margin: 20px 0 40px;
+    background-color: white;
+    color: rgb(228,181,164);
+    border: 2px solid rgb(228,181,164);
+    width: 250px;
+}
+
+.shop-btn:hover {
+    background-color: rgb(228,181,164);
+    color: white;
+    border: transparent;    
+}
+
+
+    
+
+@media  (min-width: 1024px) {
+   
+    .bouqet-cards {       
+        -ms-grid-columns: 1fr 1fr 1fr 1fr;       
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background: white; 
+        width: 100%;
+     
+    }
+  
+}
+
+@media  (min-width: 1920px) {
+
+
+    .section-title {
+        font-size: xx-large;
+    }
+
+    h5 {
+        font-size: xx-large;
+    }
+
+     button {
+        font-size: x-large;
+        width: 15%;
+        padding: 15px 30px;
+    }
+
+    #contactBtn {
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+} 
+

@@ -1,0 +1,27 @@
+.cart-title {
+    background-color: rgb(228,181,164);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 10px;
+    margin: 10px 2%;
+    width: 96%;
+    color: white;      
+}
+
+.wrapper {
+    background-color: white;
+}
+
+.delete-btn {
+    margin: 20px 0 40px;
+    background-color: white;
+    color: rgb(228,181,164);
+    border: 2px solid rgb(228,181,164);
+    width: 250px;
+}
+
+.delete-btn:hover {
+    background-color: rgb(228,181,164);
+    color: white;
+    border: transparent;    
+}

@@ -1,0 +1,79 @@
+.shop-bouqet-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  margin: 10px 10px;    
+}
+
+.shop-img-wrp {
+  position: relative; 
+  width: 300px;
+  height: 300px;
+  background: url(../../../../../../course1/Hanna-project/images/Medium-1-800x800.jpg);    
+  background-size: cover;
+  cursor: pointer;    
+}
+
+.shop-img-text:hover {
+  background-size: 100% 2px;    
+}
+
+.shop-bouqet-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+
+
+.shop > h2, h5 {
+  margin: 0;
+  padding: 15px 0 10px;
+}
+
+.shop-btn {
+  margin: 20px 0 40px;
+  background-color: white;
+  color: rgb(228,181,164);
+  border: 2px solid rgb(228,181,164);
+  width: 250px;
+}
+
+.shop-btn:hover {
+  background-color: rgb(228,181,164);
+  color: white;
+  border: transparent;    
+}
+
+.modalBtn {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.76);
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  bottom: 5%;
+  width: 90%;
+  right: 5%;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(228,181,164)), to(rgb(228,181,164)));
+  background-image: -o-linear-gradient(rgb(228,181,164), rgb(228,181,164));
+  background-image: linear-gradient(rgb(228,181,164), rgb(228,181,164));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .9s;
+  -o-transition: background-size .9s;
+  transition: background-size .9s;    
+}

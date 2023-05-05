@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding-top: 50px;
+    margin-bottom: 110px;    
+}
+
+.gallery-row {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;        
+}
+
+.example-wide {
+    width: 58vw;
+    height: 425px;    
+    margin-left: 15px; 
+    margin-bottom: 15px; 
+    overflow: hidden;
+    background: black;    
+}  
+
+.example-narrow {
+    width: 28vw;
+    height: 425px;    
+    margin-left: 15px; 
+    margin-bottom: 15px;
+    overflow: hidden;
+    background: black;    
+}
+
+img {
+    transition: transform 0.25s;
+    width: 100%;
+    opacity: 1;
+}
+  
+.example-wide:hover img {
+    transform: scale(1.1);
+    opacity: 0.5;
+    transition: opacity 1000ms linear, transform 1000ms linear;
+}
+
+.example-narrow:hover img {
+    transform: scale(1.1);
+    opacity: 0.5;
+    transition: opacity 1000ms linear, transform 1000ms linear; 
+}
+
+
+
+
